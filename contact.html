@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled UI - Contact Form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="./utils/logo.png" alt="E-Cell Logo">
+        </div>
+        <ul class="navbar-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Initiatives</a></li>
+            <li><a href="#">Archives</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="navbar-blogs">BLOGS</a></li>
+        </ul>
+    </nav>
+
+    <div class="card">
+        <!-- Left sidebar with contact information -->
+        <div class="sidebar">
+            <div>
+                <div class="logo">
+                    <img src="./utils/logo.png" alt="ecell-logo">
+                    RGPV
+                </div>
+    
+                <div class="contact-section">
+                    <h2>
+                        <img src="./utils/Message chat circle.svg" alt="Chat-icon" class="contact-icon">
+                        Chat to us
+                    </h2>
+                    <p class="light">Our friendly team is here to help.</p>
+                    <p class="bold">support@ecellrgpv.com</p>
+                </div>
+    
+                <div class="contact-section">
+                    <h2>
+                        <img src="./utils/site_place_placeholder_map_marker_icon_225717.svg" alt="location-icon" class="contact-icon">
+                        Visit us
+                    </h2>
+                    <p class="light">Come say hello at our office HQ.</p>
+                    <div class="address">
+                        <p class="bold">E-Cell RGPV,</p>
+                        <p class="bold">Gandhi Nagar, Bhopal</p>
+                    </div>
+                </div>
+    
+                <div class="contact-section">
+                    <h2>
+                        <img src="./utils/svg_349837.svg" alt="call-icon" class="contact-icon">
+                        Call us
+                    </h2>
+                    <p class="light">Mon-Fri from 8AM to 5PM.</p>
+                    <p class="bold">+91 96281 28323</p>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.facebook.com/ECellRGPV" class="social-link">
+                    <img src="./utils/Facebook circle.svg" alt="facebook-icon">
+                </a>
+                <a href="https://x.com/ECellRGPV" class="social-link">
+                    <img src="./utils/Sc twitter.svg" alt="twitter-icon">
+                </a>
+                <a href="https://www.linkedin.com/company/ecell-rgpv/about/" class="social-link">
+                    <img src="./utils/Logo linkedin.svg" alt="linkedin-icon">
+                </a>
+                <a href="https://youtube.com/@ecellrgpv?si=HrUEy7neyHPkr7J_" class="social-link">
+                    <img src="./utils/Youtube filled.svg" alt="youtube-icon">
+                </a>
+                <a href="https://www.instagram.com/ecell_rgpv/#" class="social-link">
+                    <img src="./utils/Instagram alt.svg" alt="instagram-icon">
+                </a>
+            </div>
+        </div>
+
+        <!-- Main content with form -->
+        <div class="main-content-wrapper">
+            <div class="main-content">
+                <div class="header">
+                    <h1>Got ideas? We've got the skills. Let's team up.</h1>
+                    <p>Tell us more about yourself and what you're got in mind.</p>
+                </div>
+    
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your name</label>
+                    </div>
+    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="phone" name="phone" required>
+                        <label for="phone">Your Contact</label>
+                    </div>
+    
+                    <div class="form-group">
+                        <textarea id="project" name="project" rows="3" required></textarea>
+                        <label for="project">Tell us a little about the idea...</label>
+                    </div>
+    
+                    <div class="form-group">
+                        <label class="services-label">How can we help?</label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="website" name="service" value="Website design" class="custom-checkbox" checked>
+                                <label for="website">Website design</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="content" name="service" value="Content creation" class="custom-checkbox">
+                                <label for="content">Content creation</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="ux" name="service" value="UX design" class="custom-checkbox" checked>
+                                <label for="ux">UX design</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="strategy" name="service" value="Strategy & consulting" class="custom-checkbox">
+                                <label for="strategy">Strategy & consulting</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="research" name="service" value="User research" class="custom-checkbox">
+                                <label for="research">User research & Marketing</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="other" name="service" value="Other" class="custom-checkbox">
+                                <label for="other">Other</label>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <button type="submit" class="submit-btn">Let's Connect!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="./utils/logo.png" alt="E-Cell Logo">
+            <p>e-Entrepreneurship Cell is a non-profit organisation solely with the purpose of creating awareness
+                towards the developing entrepreneurial culture in our surrounding and encourage students to embrace the
+                idea of starting their own venture and also to inspire and guide young entrepreneurs and their
+                start-ups.</p>
+            <div class="footer-social-links">
+                <a href="#"><img src="./utils/Facebook circle.svg" alt="Facebook"></a>
+                <a href="#"><img src="./utils/Instagram alt.svg" alt="Instagram"></a>
+                <a href="#"><img src="./utils/Logo linkedin.svg" alt="LinkedIn"></a>
+            </div>
+        </div>
+
+        <div class="footer-quick-links">
+            <h3>QUICK LINKS</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Post Events</a></li>
+                <li><a href="#">CAP</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-spotlight">
+            <h3>SPOTLIGHT</h3>
+            <ul>
+                <li><a href="#">SIP</a></li>
+                <li><a href="#">Startup Incubation</a></li>
+                <li><a href="#">E-Mentoring</a></li>
+                <li><a href="#">Skill Development</a></li>
+                <li><a href="#">Alumni E-Cell RGPV</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <h3>CONTACT US</h3>
+            <p>E-Cell RGPV, Gandhi Nagar, Bhopal</p>
+            <p>Phone: +91 7828373231</p>
+            <p>Email: support@ecellrgpv.com</p>
+        </div>
+
+        <p class="footer-copyright">Copyright © 2016-2021 E-Cell, RGPV. All Rights Reserved</p>
+    </footer>
+    <script src="contact.js"></script>
+</body>
+</html>
